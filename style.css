@@ -52,3 +52,11 @@ li {
   display: flex;
   justify-content: space-between;
 }
+
+#clearBtn {
+  background-color: #dc2626;
+}
+
+#clearBtn:hover {
+  background-color: #b91c1c;
+}

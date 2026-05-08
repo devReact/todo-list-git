@@ -32,7 +32,7 @@ input {
 
 button {
   padding: 10px 15px;
-  background-color: #2563eb;
+  background-color: #5aeb25;
   color: white;
   border: none;
   cursor: pointer;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #1d4ed8;
+  background-color: #1da0d8;
 }
 
 li {

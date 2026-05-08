@@ -1,8 +1,10 @@
 const taskInput = document.getElementById("taskInput");
 const addBtn = document.getElementById("addBtn");
+const clearBtn = document.getElementById("clearBtn");
 const taskList = document.getElementById("taskList");
 
 addBtn.addEventListener("click", addTask);
+clearBtn.addEventListener("click", clearAllTasks);
 
 taskInput.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -32,4 +34,8 @@ function addTask() {
   taskList.appendChild(li);
 
   taskInput.value = "";
+}
+
+function clearAllTasks() {
+  taskList.innerHTML = "";
 }
